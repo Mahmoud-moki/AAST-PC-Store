@@ -1,0 +1,104 @@
+body{
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    display: grid; 
+    grid-template-areas: "navbar"
+    "main" "footer";
+    background-image: url(backbox.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    border-radius: 1em;
+    padding: 0.3em;
+    background-color: rgb(128, 128, 128);
+}
+
+.nav-items li a:hover{
+    background-color: rgb(44, 44, 44);
+}
+.o1 button:hover{
+    background-color: rgb(44, 44, 44);
+}
+.o2 button:hover{
+    background-color: rgb(44, 44, 44);
+}
+.o3 button:hover{
+    background-color: rgb(44, 44, 44);
+}
+
+.nav-items li a {
+    margin-top: 1em;
+    border-radius: 1em;
+    background-color: rgb(85, 85, 85);
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 1vh;
+}
+.nav-items li {
+    display: inline-block;
+}
+
+aside{
+    grid-area: navbar;
+    top: 0;
+}
+
+.boxy{
+    width: 50em;
+    height: 40em;
+    margin-left: 30%;
+    margin-top: 5%;
+    align-self: center;
+    grid-area: main;
+    border-radius: 2em;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.submitb{
+    height: 4em;
+    width: 50em;
+    background-color: rgb(184, 184, 184);
+    border-radius: 1em;
+    cursor:pointer;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+
+}
+p{
+    text-align: center;
+}
+
+input{
+    height: 2em;
+    margin-bottom: 2em;
+    display: block;
+    border-radius: .5em;
+    justify-self: center;
+}
+textarea{
+    margin-bottom: 2em;
+    border-radius: .5em;
+    justify-self: center;
+}
+.Socials li{
+    display: inline-block;
+    align-self: left;
+    margin-top: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+.Social-list{
+    display: flex;
+    grid-area: footer;
+    justify-content: center;
+    align-self: center;
+
+} 

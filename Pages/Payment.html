@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Payment</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./../css/bootstrap.css">
+    <link rel="stylesheet" href="./../css/Style.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top top-0 navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand fs-3" href="#">Store</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./../index.Html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Feedback.html">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./About-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Cart.html"><i class="bi bi-bag fw-bold fs-5"></i></a>
+              </li>
+            </ul>
+            <div class="ms-4">
+              <input class="switch" id="themeToggle" type="checkbox">
+            </div>
+                            <div class="nav-item">
+                   <a class="nav-link h4" href="./Login.html"><i class="bi bi-box-arrow-right h5 ms-4 text-danger fw-bold"></i></a>
+                </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container my-5">
+
+        <h2 class="mb-4">Checkout</h2>
+
+        <div class="row">
+
+            <div class="col-lg-7">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+
+
+                        <form>
+
+                            <h5 class="mb-3">Payment Method</h5>
+
+                            <div class="mb-3">
+                                <label class="form-label">Card Number</label>
+                                <input type="number" class="form-control" placeholder="xxxx xxxx xxxx xxxx">
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label class="form-label">Expiry</label>
+                                    <input type="number" class="form-control" placeholder="MM/YY">
+                                </div>
+
+                                <div class="col">
+                                    <label class="form-label">CVV</label>
+                                    <input type="number" class="form-control" placeholder="123">
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary w-100">
+                                Complete Payment
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+
+                <div class="card shadow-sm">
+                    <div class="card-body">
+
+                        <h5 class="mb-3">Order Summary</h5>
+
+                        <ul class="list-group mb-3">
+
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Intel Core i7</span>
+                                <span>$159.99</span>
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>RTX 4070</span>
+                                <span>$49.99</span>
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>16GB RAM</span>
+                                <span>$509.99</span>
+                            </li>
+
+                        </ul>
+
+                        <div class="d-flex justify-content-between fw-bold fs-5">
+                            <span>Total</span>
+                            <span>$719.97</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <section class="w-100  bottom-0 mt-5">
+        <footer class="bg-body-secondary">
+          <div class="container p-4">
+            <div class="row justify-content-between">
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Our Store</h5>
+    
+                <p class="text-start">
+                  We sell reliable, high-performance PCs with honest advice, fair prices, and support you can trust.
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Pages</h5>
+    
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#! " class="text-body text-decoration-none">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#! " class="text-body text-decoration-none">Feedback</a>
+                  </li>
+                  <li>
+                    <a href="#! " class="text-body text-decoration-none">Products</a>
+                  </li>
+                  <li>
+                    <a href="#! " class="text-body text-decoration-none">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </footer>
+      </section>
+
+      <script src="./../JS/Util.js"></script>
+</body>
+
+</html>
