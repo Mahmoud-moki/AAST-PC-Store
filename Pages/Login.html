@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+
     <link rel="stylesheet" href="./../css/bootstrap.css" />
   </head>
+
   <body class="bg-body-secondary">
     <div
       class="container d-flex justify-content-center align-items-center vh-100"
@@ -13,25 +15,31 @@
       <div class="card shadow p-4" style="width: 100%; max-width: 400px">
         <h3 class="text-center mb-4">Login</h3>
 
-        <form action="./../index.Html">
+        <form id="loginForm">
           <div class="mb-3">
             <label class="form-label">Email address</label>
+
             <input
+              id="email"
               type="email"
               class="form-control"
               placeholder="Enter email"
-              required
             />
+
+            <div id="emailError" class="text-danger small mt-1"></div>
           </div>
 
           <div class="mb-3">
             <label class="form-label">Password</label>
+
             <input
+              id="password"
               type="password"
               class="form-control"
               placeholder="Enter password"
-              required
             />
+
+            <div id="passwordError" class="text-danger small mt-1"></div>
           </div>
 
           <button type="submit" class="btn btn-primary w-100">Login</button>
@@ -39,13 +47,17 @@
           <div class="text-center mt-3">
             <a href="#" class="text-decoration-none">Forgot password?</a>
           </div>
+
           <div class="text-center mt-1">
-            <a href="#" class="text-decoration-none"
-              >Don't have an account? Create one</a
-            >
+            <a href="./Sign-In.html" class="text-decoration-none">
+              Don't have an account? Create one
+            </a>
           </div>
         </form>
       </div>
     </div>
+
+    <!-- JS -->
+    <script src="./../JS/login.js"></script>
   </body>
 </html>

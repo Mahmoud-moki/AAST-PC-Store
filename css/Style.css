@@ -1,7 +1,7 @@
 .top-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding: 0em 2em;
   background-color: #626060;
   border-radius: 1em;
@@ -17,7 +17,7 @@
   background-color: rgb(120, 118, 118);
   padding: 0.5em 1em;
   border-radius: 0.5em;
-  margin: 0 0.5em; 
+  margin: 0 0.5em;
 }
 
 .input-wrapper {
@@ -25,33 +25,33 @@
   align-items: center;
 }
 
-.input-wrapper input {  
+.input-wrapper input {
   border-radius: 0.8em;
   border: none;
   margin-top: 20px;
 }
 
 .cart-icon {
-  width: 30px;  
+  width: 30px;
   padding: 0em 1em;
 }
 
 .top-bar .input-wrapper input {
-  height: 3em; 
+  height: 3em;
   width: 12em;
 }
 
-.boxy{
+.boxy {
   width: 50em;
   height: 30em;
   border-radius: 2em;
-  background-color: rgb(209, 209, 209); 
+  background-color: rgb(209, 209, 209);
   display: flex;
   flex-direction: column;
   margin: auto;
 }
 
-.submitb{
+.submitb {
   height: 4em;
   width: 50em;
   background-color: rgb(184, 184, 184);
@@ -59,44 +59,44 @@
   border: none;
 }
 
-h1{
+h1 {
   font-size: 4em;
   text-align: center;
 }
 
-p{
+p {
   text-align: center;
 }
 
-input{
+input {
   height: 2em;
   margin-bottom: 2em;
   display: block;
-  border-radius: .5em;
+  border-radius: 0.5em;
   justify-self: center;
 }
 
-.Socials li{
+.Socials li {
   display: inline-block;
   align-self: left;
   margin-top: 1.3em;
   padding: 0.5em;
 }
 
-.Social-list{
+.Social-list {
   display: flex;
   justify-content: center;
 }
 
 .About-usMain {
-  text-align: center; 
+  text-align: center;
   padding: 2em;
   line-height: 1.3;
 }
 
-.About-usImage{
+.About-usImage {
   height: 10cm;
-  border-radius: 0.6em; 
+  border-radius: 0.6em;
 }
 
 .about-description {
@@ -112,18 +112,18 @@ input{
   margin: auto;
 }
 
-.sign-up-form input { 
+.sign-up-form input {
   border-radius: 10px;
   width: 100%;
 }
 
-.Signin-button{
+.Signin-button {
   text-align: center;
   color: white;
   background-color: rgb(120, 118, 118);
   padding: 0.5em 6em;
   border-radius: 0.5em;
-  border: none; 
+  border: none;
 }
 
 .login-button {
@@ -136,7 +136,7 @@ input{
   border: none;
 }
 
-.Addcart-button{
+.Addcart-button {
   text-align: center;
   color: white;
   background-color: rgb(120, 118, 118);
@@ -148,10 +148,10 @@ input{
 .Cartcontent {
   display: flex;
   position: relative;
-  border-bottom: 2px solid #626060; 
-  padding-bottom: 10px;           
-  width: 60%;         
-  margin: 0 auto; 
+  border-bottom: 2px solid #626060;
+  padding-bottom: 10px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .Left-content {
@@ -165,7 +165,7 @@ input{
   font-size: 250%;
 }
 
-.Right-content{
+.Right-content {
   position: absolute;
   left: 90%;
   font-size: 250%;
@@ -175,10 +175,10 @@ input{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%; 
+  width: 50%;
 }
 
-.ProductIMG{
+.ProductIMG {
   width: 5cm;
   margin-left: 3cm;
 }
@@ -191,7 +191,7 @@ input{
 
 .quantity-input {
   flex: 1;
-  max-width: 50px;  
+  max-width: 50px;
   text-align: center;
   font-size: 100%;
   margin: 0 auto;
@@ -206,18 +206,18 @@ input{
 
 .Checkout {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .Checkout-button {
-  text-decoration: none; 
+  text-decoration: none;
   color: white;
   background-color: rgb(120, 118, 118);
   padding: 0.5em 4em;
   border-radius: 0.5em;
 }
 
-.table{
+.table {
   text-align: center;
   display: flex;
   gap: 1cm;
@@ -236,7 +236,7 @@ input{
 }
 
 .Feedback-Items {
-  display: flex; 
+  display: flex;
   gap: 5px;
 }
 
@@ -251,13 +251,12 @@ input{
 
 .Feedback-4 {
   width: 10cm;
-  height: 3cm;;
+  height: 3cm;
 }
 
 .Feedback-4::placeholder {
   position: absolute;
   top: 10px;
-
 }
 
 .switch {
@@ -268,7 +267,7 @@ input{
   appearance: none;
   border-radius: 9999px;
   background-color: rgba(100, 116, 139, 0.377);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   margin-bottom: 0px;
 }
 
@@ -289,16 +288,15 @@ input{
   border-radius: 9999px;
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);
-  transition: all .3s ease;
-  
+  transition: all 0.3s ease;
 }
 
 .switch:hover::before {
-  box-shadow: 0 0 0px 8px rgba(0, 0, 0, .15)
+  box-shadow: 0 0 0px 8px rgba(0, 0, 0, 0.15);
 }
 
 .switch:checked:hover::before {
-  box-shadow: 0 0 0px 8px rgba(236, 72, 153, .15)
+  box-shadow: 0 0 0px 8px rgba(236, 72, 153, 0.15);
 }
 
 .switch:checked:before {
@@ -307,7 +305,7 @@ input{
 }
 
 .product-img-wrapper {
-  height: 180px;              
+  height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -317,5 +315,67 @@ input{
 .product-img-wrapper img {
   max-height: 100%;
   max-width: 100%;
-  object-fit: contain;        
+  object-fit: contain;
+}
+
+.carousel-item img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin: auto;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: grey;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.confirm-box {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 80px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.success-icon {
+  font-size: 80px;
+  color: green;
+}
+
+.cart-popup {
+  position: fixed;
+  top: 20px;
+  left: -300px;
+  background: #28a745;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s;
+  z-index: 9999;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cart-popup.show {
+  left: 20px;
+}
+
+.hero-section {
+  height: 80vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./../IMG/financing.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
 }
